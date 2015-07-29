@@ -17,8 +17,7 @@ Finally it was printed by a [MakerBot Replicator Fifth Gen](https://eu.makerbot.
 Each house implements two solar panels, a circuit to emulate consumers and a battery backup. All houses are connected directly without any voltage conversion involved. Within the house voltage conversion is done to and from the predefined voltage which is on the main bus by DC/DC converters.
 
 ####PV Panels
-Two solar panels are in use. each of them theme is 10 cm long and hast a with of 8 cm. The highest power one that can be
-
+Two solar panels are in use. Each of them is 10 cm long and has a width of 8 cm. The highest power one  can transform is one watt.
 To get the most power out of the PV panels, [MPPT (Maximum Power Point Tracking)](https://en.wikipedia.org/wiki/Maximum_power_point_tracking) is used to detect the sweet spot.
 
 ##Software
@@ -29,3 +28,5 @@ For accessing the GPIO on the Raspberry Pi, the [pi4j project](http://pi4j.com) 
 
 ###Communication
 Communication has been done using the [JAVA Agent DEvelopment Framework](http://jade.tilab.com).
+JADE is a software Framework fully implemented in the Java language.
+Over JADE network the need energy  for every house is determined.
